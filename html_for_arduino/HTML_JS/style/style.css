@@ -1,94 +1,118 @@
 body {
-    padding: 0;
-    margin: 0 auto;
-    color: #5e5e5e;
-    font-family: "Open Sans", sans-serif;
+  padding: 0;
+  margin: 0 auto;
+  color: #5e5e5e;
+  font-family: "Open Sans", sans-serif;
 }
 
 .content {
-    border-top: 1px solid #555;
-    border-bottom: 1px solid #555;
-    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    border-radius: 20px;
-    margin: 0 auto;
-    margin-top: 30px;
-    width: 50%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -ms-flex-line-pack: center;
-    align-content: center;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+  border-top: 1px solid #555;
+  border-bottom: 1px solid #555;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .values {
-    margin: 10px;
-    border-top: 1px solid #000;
-    border-bottom: 1px solid #000;
-    border-radius: 10px;
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -ms-flex-line-pack: center;
-    align-content: center;
-    margin-bottom: 15px;
+  margin: 10px;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  border-radius: 10px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin-bottom: 15px;
 }
 
 .values h1 {
-    display: block;
-    width: 100%;
-    text-align: center;
+  display: block;
+  width: 100%;
+  text-align: center;
 }
 
 .values h2 {
-    display: block;
-    text-align: right;
+  display: block;
+  text-align: right;
 }
 
-.content a {
-    border: 0px solid #000;
-    text-decoration: none;
-    width: 150px;
-    height: 30px;
-    margin: 10px;
-    text-align: center;
-    line-height: 30px;
-    border-radius: 10px;
-    background-color: #999;
-    color: #000;
-    -webkit-transition: 0.2s all;
-    transition: 0.2s all;
+a {
+  border: 0px solid #000;
+  text-decoration: none;
+  width: 150px;
+  height: 30px;
+  margin: 10px;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 10px;
+  background-color: #999;
+  color: #000;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
 }
 
 .content a:hover {
-    color: #eee;
-    background-color: #555;
-    -webkit-transition: 0.2s all;
-    transition: 0.2s all;
+  color: #eee;
+  background-color: #555;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
 }
 
+label {
+  font-size: 1.1em;
+}
 
+input[type="text"] {
+  width: 40px;
+  margin-right: 25px;
+}
+
+input[type="submit"] {
+  border: none;
+  background: #999;
+  width: 100px;
+  height: 30px;
+  margin: 30px;
+  border-radius: 10px;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+}
+
+input[type="submit"]:hover {
+  cursor: pointer;
+  color: #eee;
+  background-color: #555;
+}
 /*# sourceMappingURL=style.css.map */
